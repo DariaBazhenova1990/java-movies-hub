@@ -3,9 +3,9 @@ package ru.practicum.moviehub.model;
 import java.time.Year;
 
 public class Movie {
-    public final static int MIN_ALLOWED_YEAR = 1888;
-    public final static int MAX_ALLOWED_YEAR = Year.now().getValue() + 1;
-    public final static int MAX_TITLE_LENGTH = 100;
+    public static final int MIN_ALLOWED_YEAR = 1888;
+    public static final int MAX_ALLOWED_YEAR = Year.now().getValue() + 1;
+    public static final int MAX_TITLE_LENGTH = 100;
 
     private final int id;
     private final String title;
